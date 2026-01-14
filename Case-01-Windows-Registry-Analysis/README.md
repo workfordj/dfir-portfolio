@@ -17,9 +17,12 @@ The objective of this analysis is to identify relevant registry artifacts and in
 Publicly available CFReDS Windows Registry datasets were used for this analysis.
 
 ## Methodology
-Registry hives were examined in a read-only manner.
-Relevant keys and values were identified based on known Windows artifact locations.
-Findings were correlated to support investigative conclusions.
+This analysis was conducted using publicly available Windows Registry hive datasets obtained from the NIST CFReDS repository. All registry hives were examined in a read-only manner to preserve data integrity.
+
+Analysis focused on user-centric registry artifacts commonly used in Windows forensic investigations, including RecentDocs, UserAssist, Run and RunOnce keys, and ShellBag data. These artifacts were examined to identify indicators of user activity, program execution, and persistence mechanisms.
+
+Findings were interpreted within the context of known Windows registry behavior and correlated where possible to support investigative conclusions. No attempt was made to modify, repair, or recover deleted registry data beyond standard parsing techniques.
+
 
 ## Key Findings
 (Findings will be documented after analysis is complete.)
