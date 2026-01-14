@@ -1,7 +1,9 @@
 # Case 01: Windows Registry Analysis
 
+
 ## Case Overview
 This case examines Windows Registry artifacts to support user activity and system configuration analysis.
+
 
 ## Objective
 The objective of this analysis is to identify relevant registry artifacts and interpret their forensic significance.
